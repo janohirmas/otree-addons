@@ -1,0 +1,63 @@
+{"lQuestions" : [
+    {
+        "question": "What is your age?",
+        "name": "D1",
+        "type": "shortOpen",
+        "validate": "validAge" ,
+        "invalidMessage": "warningAge"
+    },    
+    {
+        "question": "Which gender do you identify the most with?",
+        "name": "D2",
+        "type": "radio",
+        "values": [1,2,3,4],
+        "labels": [
+            "Female",
+            "Male",
+            "Other",
+            "Prefer not to say"
+        ]
+    },      
+    {
+        "question": "What is your nationality?",
+        "name": "D3",
+        "type": "autocomplete",
+        "list": "countryList"
+    },
+    {
+        "question": "Have you ever participated in an incentivized economic experiment (such as this one) before?",
+        "name": "D4",
+        "type": "radio",
+        "values": [1,2,3],
+        "labels": ["Yes","No","Not sure / don't remember"],
+        "order":4
+    },
+    {
+        "question": "Where would you put yourself in the socioeconomic ladder?",
+        "name": "EQ1",
+        "type": "Likert",
+        "likertMax": 10,
+        "limits": ["worst off","best off"],
+        "confirmRequired" : true
+    },    
+    {
+        "question": "Where would you place yourself in the political scale from extremely liberal to extremely conservative?",
+        "name": "EQ2",
+        "type": "Likert",
+        "likertMax": 10,
+        "limits": ["Liberal (left)","Conservative (right)"],
+        "confirmRequired" : true
+    },    
+    {
+        "question": "What do you think is the purpose of this study? Describe shortly in your own words.",
+        "name": "D5",
+        "type": "longOpen",
+        "order":7
+        
+    },
+    {
+        "question": "During the experiment, did you use any specific strategy or rule of thumb when deciding. Briefly describe.",
+        "name": "D6",
+        "type": "longOpen"
+    }
+]}

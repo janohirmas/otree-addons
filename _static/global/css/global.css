@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.debug-info{ 
+    display: none;
+}
+
+:root{
+    --color1: #EDE7DC;
+    --color2: #F2F1F0;
+    --color3: #C0C0C0;
+    --color4:  #6C6A61;
+}
+
+.page-content{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color1);
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.center-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+

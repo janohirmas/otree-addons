@@ -1,0 +1,17 @@
+{{ extends "global/Page.html" }}
+
+{{ block PageContent }}
+    
+
+
+{{ endblock }}
+
+{{ block scripts }}
+    <script src="{% static 'global/js/questionnaire.js' %}"></script>
+    <script src="{% static 'global/js/FriendlyChecks.js' %}"></script>        
+{{ endblock }}
+
+{{ block styles }}
+    <link rel="stylesheet" href="{% static 'global/css/questionnaire.css' %}">
+    <link rel="stylesheet" href="{% static 'global/css/FriendlyChecks.css' %}">
+{{ endblock }}
